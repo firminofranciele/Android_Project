@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="faakltd.mylingoapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logonew"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginPage"
+            android:label="@string/title_activity_login_page" >
+        </activity>
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name=".Portuguese"
+            android:label="@string/title_activity_portuguese" >
+        </activity>
+        <activity
+            android:name=".Spanish"
+            android:label="@string/title_activity_spanish" >
+        </activity>
+        <activity
+            android:name=".ChoseLanguage"
+            android:label="@string/title_activity_chose_language" >
+        </activity>
+        <activity
+            android:name=".Russian"
+            android:label="@string/title_activity_russian" >
+        </activity>
+        <activity
+            android:name=".German"
+            android:label="@string/title_activity_german" >
+        </activity>
+        <activity
+            android:name=".SpanishAlph"
+            android:label="@string/title_activity_spanish_alph" >
+        </activity>
+        <activity
+            android:name=".SpanishCP"
+            android:label="@string/title_activity_spanish_cp" >
+        </activity>
+        <activity
+            android:name=".RussianAlph"
+            android:label="@string/title_activity_russian_alph" >
+        </activity>
+        <activity
+            android:name=".RussianCP"
+            android:label="@string/title_activity_russian_cp" >
+        </activity>
+        <activity
+            android:name=".PortugueseAlph"
+            android:label="@string/title_activity_portuguese_alph" >
+        </activity>
+        <activity
+            android:name=".PortugueseCP"
+            android:label="@string/title_activity_portuguese_cp" >
+        </activity>
+        <activity
+            android:name=".profile"
+            android:label="@string/title_activity_portuguese_cp" >
+        </activity>
+        <activity
+            android:name=".GermanAlph"
+            android:label="@string/title_activity_german_alph" >
+        </activity>
+        <activity
+            android:name=".GermanCP"
+            android:label="@string/title_activity_german_cp" >
+        </activity>
+        <activity
+            android:name=".RussianChoose"
+            android:label="@string/title_activity_russian_choose" >
+        </activity>
+        <activity
+            android:name=".SpanishChoose"
+            android:label="@string/title_activity_spanish_choose" >
+        </activity>
+        <activity
+            android:name=".PortugueseChoose"
+            android:label="@string/title_activity_portuguese_choose" >
+        </activity>
+        <activity
+            android:name=".GermanChoose"
+            android:label="@string/title_activity_german_choose" >
+        </activity>
+    </application>
+
+</manifest>

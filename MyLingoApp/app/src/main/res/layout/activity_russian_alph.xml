@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="faakltd.mylingoapp.RussianAlph"
+    android:id="@+id/RussianAlph"
+    android:background="#06A2CB">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView6"
+        android:background="@drawable/logoimage"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="345dp"
+        android:layout_height="180dp"
+        android:background="@drawable/textbox"
+        android:id="@+id/imageView5"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="Home Page"
+        android:id="@+id/homeG"
+        android:background="#D0C6B1"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="Profile"
+        android:id="@+id/profileG"
+        android:background="#D0C6B1"
+        android:layout_alignTop="@+id/buttonG"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="Logout"
+        android:id="@+id/buttonG"
+        android:background="#D0C6B1"
+        android:layout_alignTop="@+id/homeG"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+
+        android:id="@+id/welcome8"
+        android:textColor="#ffffff"
+
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/homeG"
+        android:layout_toLeftOf="@+id/profileG" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="Next"
+        android:id="@+id/commonNext2"
+        android:background="#D0C6B1"
+        android:layout_below="@+id/imageView5"
+        android:layout_toRightOf="@+id/homeG"
+        android:layout_toEndOf="@+id/homeG"
+        android:layout_marginTop="73dp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Click next to start"
+        android:textSize="25dp"
+        android:id="@+id/welcome33"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView7"
+        android:background="@drawable/rusianflag"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="user"
+        android:id="@+id/welcome16"
+        android:layout_above="@+id/imageView5"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speak"
+        android:id="@+id/bspeak"
+        android:onClick="onClick"
+        android:layout_alignBaseline="@+id/commonNext2"
+        android:layout_alignBottom="@+id/commonNext2"
+        android:layout_alignRight="@+id/imageView5"
+        android:layout_alignEnd="@+id/imageView5" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyLingoApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_message">Hey There :)</string>
+    <string name="welcome_btn">Login</string>
+    <string name="register_btn">Register</string>
+    <string name="title_activity_login_page">LoginPage</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_portuguese">Portuguese</string>
+    <string name="title_activity_spanish">Spanish</string>
+    <string name="title_activity_chose_language">ChoseLanguage</string>
+    <string name="title_activity_russian">Russian</string>
+    <string name="title_activity_german">German</string>
+    <string name="result">Large Text</string>
+    <string name="title_activity_spanish_alph">SpanishAlph</string>
+    <string name="title_activity_spanish_cp">SpanishCP</string>
+    <string name="title_activity_russian_alph">RussianAlph</string>
+    <string name="title_activity_russian_cp">RussianCP</string>
+    <string name="title_activity_portuguese_alph">PortugueseAlph</string>
+    <string name="title_activity_portuguese_cp">PortugueseCP</string>
+    <string name="title_activity_german_alph">GermanAlph</string>
+    <string name="title_activity_german_cp">GermanCP</string>
+    <string name="title_activity_russian_choose">RussianChoose</string>
+    <string name="title_activity_spanish_choose">SpanishChoose</string>
+    <string name="title_activity_portuguese_choose">PortugueseChoose</string>
+    <string name="title_activity_german_choose">GermanChoose</string>
+
+</resources>

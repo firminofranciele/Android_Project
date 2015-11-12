@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="faakltd.mylingoapp.RussianChoose"
+    android:background="#06A2CB">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/logoimage"
+        android:contentDescription="lingoLogo" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="Alphabet"
+        android:id="@+id/russianAlphaBtn"
+        android:layout_below="@+id/imageView9"
+        android:layout_centerHorizontal="true"
+        android:onClick="spanishAlph"
+        android:layout_marginTop="70dp" />
+
+    <Button
+        android:layout_width="175dp"
+        android:onClick="spanishCP"
+        android:layout_height="wrap_content"
+        android:text="Common Phrases"
+        android:id="@+id/russianComBtn"
+        android:layout_below="@+id/russianAlphaBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:onClick="spanishQuiz"
+        android:id="@+id/spanQuizBtn"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/russianComBtn"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/spanishflag"
+        android:contentDescription="spanishFlag" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/welcome12"
+        android:layout_below="@+id/imageView9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center" />
+</RelativeLayout>
